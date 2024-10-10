@@ -1,6 +1,6 @@
 # Proyecto Torneo de Tenis - Geopagos
 
-Este proyecto simula un torneo de tenis, permitiendo registrar jugadores, torneos, y partidos utilizando **PHP** y **Eloquent ORM**. Además, se implementa una API REST para manejar las operaciones principales. El proyecto está configurado para correr en **Docker**.
+Este proyecto simula un torneo de tenis, permitiendo registrar jugadores, torneos, y partidos utilizando **PHP** y **Eloquent ORM**. Además, se implementa una API REST para manejar las operaciones principales. El proyecto está configurado para correr en **Docker** y contiene un archivo json para importar en **Postman** y poder probar los endpoints.
 
 ## Requisitos
 

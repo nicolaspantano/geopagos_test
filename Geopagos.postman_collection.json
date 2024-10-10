@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "bb6cf057-6e9e-41d4-9565-81b3342f3968",
+		"name": "Geopagos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28779129"
+	},
+	"item": [
+		{
+			"name": "Jugar torneo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "jugadores",
+							"value": "[\n  {\n    \"nombre\": \"Berta\",\n    \"habilidad\": 71,\n    \"genero\": \"Masculino\",\n    \"fuerza\": 8,\n    \"velocidad_de_desplazamiento\": 7\n  },\n  {\n    \"nombre\": \"Walter\",\n    \"habilidad\": 71,\n    \"genero\": \"Masculino\",\n    \"fuerza\": 8,\n    \"velocidad_de_desplazamiento\": 7\n  },\n  {\n    \"nombre\": \"Phoebe\",\n    \"habilidad\": 72,\n    \"genero\": \"Masculino\",\n    \"fuerza\": 8,\n    \"velocidad_de_desplazamiento\": 7\n  },\n  {\n    \"nombre\": \"Cecilia\",\n    \"habilidad\": 94,\n    \"genero\": \"Masculino\",\n    \"fuerza\": 8,\n    \"velocidad_de_desplazamiento\": 7\n  },\n  {\n    \"nombre\": \"Reilly\",\n    \"habilidad\": 25,\n    \"genero\": \"Masculino\",\n    \"fuerza\": 8,\n    \"velocidad_de_desplazamiento\": 7\n  },\n  {\n    \"nombre\": \"Sally\",\n    \"habilidad\": 77,\n    \"genero\": \"Masculino\",\n    \"fuerza\": 8,\n    \"velocidad_de_desplazamiento\": 7\n  }\n]",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jugadores",
+							"value": "[\n  {\n    \"nombre\": \"Berta\",\n    \"habilidad\": 71,\n    \"genero\": \"Femenino\",\n    \"tiempo_de_reaccion\": 1\n  },\n  {\n    \"nombre\": \"Walter\",\n    \"habilidad\": 71,\n    \"genero\": \"Femenino\",\n    \"tiempo_de_reaccion\": 3\n  },\n  {\n    \"nombre\": \"Phoebe\",\n    \"habilidad\": 72,\n    \"genero\": \"Femenino\",\n    \"tiempo_de_reaccion\": 4\n  },\n  {\n    \"nombre\": \"Cecilia\",\n    \"habilidad\": 94,\n    \"genero\": \"Femenino\",\n    \"tiempo_de_reaccion\": 2\n  },\n  {\n    \"nombre\": \"Reilly\",\n    \"habilidad\": 25,\n    \"genero\": \"Femenino\",\n    \"tiempo_de_reaccion\": 8\n  },\n  {\n    \"nombre\": \"Sally\",\n    \"habilidad\": 77,\n    \"genero\": \"Femenino\",\n    \"tiempo_de_reaccion\": 6\n  }\n]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/torneos/jugar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"torneos",
+						"jugar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener torneos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/torneos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"torneos"
+					],
+					"query": [
+						{
+							"key": "genero",
+							"value": "Femenino",
+							"disabled": true
+						},
+						{
+							"key": "fecha",
+							"value": "2024-10-11",
+							"disabled": true
+						},
+						{
+							"key": "ganador",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
