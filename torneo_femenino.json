@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Berta",
+    "habilidad": 71,
+    "genero": "Femenino",
+    "tiempo_de_reaccion": 1
+  },
+  {
+    "nombre": "Walter",
+    "habilidad": 71,
+    "genero": "Femenino",
+    "tiempo_de_reaccion": 3
+  },
+  {
+    "nombre": "Phoebe",
+    "habilidad": 72,
+    "genero": "Femenino",
+    "tiempo_de_reaccion": 4
+  },
+  {
+    "nombre": "Cecilia",
+    "habilidad": 94,
+    "genero": "Femenino",
+    "tiempo_de_reaccion": 2
+  },
+  {
+    "nombre": "Reilly",
+    "habilidad": 25,
+    "genero": "Femenino",
+    "tiempo_de_reaccion": 8
+  },
+  {
+    "nombre": "Sally",
+    "habilidad": 77,
+    "genero": "Femenino",
+    "tiempo_de_reaccion": 6
+  }
+]

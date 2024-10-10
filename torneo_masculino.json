@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Berta",
+    "habilidad": 71,
+    "genero": "Masculino",
+    "fuerza": 8,
+    "velocidad_de_desplazamiento": 7
+  },
+  {
+    "nombre": "Walter",
+    "habilidad": 71,
+    "genero": "Masculino",
+    "fuerza": 8,
+    "velocidad_de_desplazamiento": 7
+  },
+  {
+    "nombre": "Phoebe",
+    "habilidad": 72,
+    "genero": "Masculino",
+    "fuerza": 8,
+    "velocidad_de_desplazamiento": 7
+  },
+  {
+    "nombre": "Cecilia",
+    "habilidad": 94,
+    "genero": "Masculino",
+    "fuerza": 8,
+    "velocidad_de_desplazamiento": 7
+  },
+  {
+    "nombre": "Reilly",
+    "habilidad": 25,
+    "genero": "Masculino",
+    "fuerza": 8,
+    "velocidad_de_desplazamiento": 7
+  },
+  {
+    "nombre": "Sally",
+    "habilidad": 77,
+    "genero": "Masculino",
+    "fuerza": 8,
+    "velocidad_de_desplazamiento": 7
+  }
+]
